@@ -34,7 +34,7 @@ if __name__ == "__main__":
         "username": USERNAME
     } for todo in todos_list]
 
-    todos_data = { USER_ID: tasks }
+    todos_data = {USER_ID: tasks}
 
     # write data to json
     with open("{}.json".format(USER_ID), 'w') as jsonfile:
