@@ -3,9 +3,9 @@
 returns info about an employee's todo list progress based on id,
 exports data in the csv format
 """
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
