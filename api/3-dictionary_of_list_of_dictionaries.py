@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """
 returns info about all employee's todo list progress,
 exports data in the json format
